@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="M Y   E A T S"
+        android:textColor="@color/azul"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_margin="@dimen/margenes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editUsr"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margenes"
+            android:background="@color/gris"
+            android:drawableEnd="@android:drawable/ic_dialog_email"
+            android:hint="Usuario"
+            android:inputType="textEmailAddress" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_margin="@dimen/margenes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/editPass"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margenes"
+            android:background="@color/gris"
+            android:drawableEnd="@android:drawable/ic_lock_idle_lock"
+            android:hint="Contraseña"
+            android:inputType="textPassword" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Switch
+        android:id="@+id/switchRemember"
+        android:text="Recordarme"
+        android:layout_margin="@dimen/margenes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/btnAccess"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_32"
+        android:text="Acceder."
+        android:textAlignment="center"
+        app:backgroundTint="@color/primary"
+        app:icon="@drawable/iconoacceder" />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/btnRegister"
+        android:layout_width="257dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margenes"
+        android:text="Registrarse."
+        android:textAlignment="center"
+        app:backgroundTint="@color/primary"
+        app:icon="@drawable/iconoanadir" />
+
+</LinearLayout>

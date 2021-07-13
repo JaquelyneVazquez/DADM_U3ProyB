@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Eats</string>
+    <string name="title_activity_menu">MainActivity</string>
+    <string name="title_home">Principal</string>
+    <string name="title_dashboard">Pedidos</string>
+    <string name="title_notifications">Perfil</string>
+
+    <!-- API LOCAL -->
+    <!-- <string name="api">http://192.168.1.45:9000/my_eats/</string> -->
+
+    <!-- API EXTERNA -->
+    <string name="api">http://198.199.83.125/my_eats_jaquelyne/</string>
+    <!-- End API -->
+
+    <!-- API EXTERNA PARA LA ACTUALIZACIÓN DEL USUARIO A TRAVEZ DE LA API DE NODE -->
+    <!-- <string name="apiNode">https://ponyeats.herokuapp.com/</string> -->
+    <string name="apiNode">http://localhost:3000/</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_products">ScrollingActivity</string>
+
+</resources>
